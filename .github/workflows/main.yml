@@ -47,7 +47,7 @@ jobs:
         run: |
           node updater.js sherlock? hacker
         env:
-          GHT: ${{ secrets.GHT }}
+          GHT: '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'
           
       # Commiting
       - name: commiting changed svg template
